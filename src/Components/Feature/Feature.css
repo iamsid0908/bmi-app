@@ -1,0 +1,34 @@
+.uili{
+    margin-top: 30px;
+    
+}
+ui li{
+    margin: 20px;
+    background-color: white;
+    margin-left: 30px;
+    color: black;
+}
+ui:hover{
+    color: skyblue;
+}
+ui{
+    
+}
+
+
+
+@media (max-width: 500px){
+    .uili{
+        width: 350px;
+       
+
+    }
+    ui li{
+        color: black;
+        margin-top: 30px;
+    }
+    ui{
+        margin-top: 50px;
+    }
+   
+}

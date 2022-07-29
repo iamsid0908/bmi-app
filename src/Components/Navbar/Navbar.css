@@ -4,6 +4,8 @@
     display: flex;
     /* flex-direction: row; */
     height: 10vh;
+    border: 1px solid black;
+    overflow: hidden;
     
 }
 .list{
@@ -13,10 +15,16 @@
     align-items: center;
     
 }
-li{
+.list li{
     margin: 30px;
     background-color: white;
+    text-decoration: none;
+    color: black;
     
+}
+li:hover{
+    color: skyblue;
+    text-decoration: none;
 }
 .field{
     background-color: white;
@@ -31,4 +39,9 @@ button{
     font-size: 16px;
     background-color: aqua;
 
+}
+@media (max-width:500px){
+    .container{
+        flex-direction: column;
+    }
 }
