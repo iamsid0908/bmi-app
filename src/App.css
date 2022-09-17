@@ -1,7 +1,8 @@
-.App {
-  text-align: center;
+ * {
+  margin: 2PX;
+  padding: 2PX;
 }
-
+/*
 
 
 @media (prefers-reduced-motion: no-preference) {
@@ -21,7 +22,7 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 
 /* sssskkkksssskkkk */

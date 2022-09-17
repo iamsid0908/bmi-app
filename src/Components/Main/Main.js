@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React,{ useState} from "react";
 import './main.css';
 
 function Maink(){
@@ -6,9 +6,10 @@ function Maink(){
     const [height,setHeight]=useState(0);
     const [bmi , setBmi]=useState('');
     const [text , setText]=useState('');
-    console.log(bmi);
+    
+    
 
-
+    
     let calcBmi = (event) => {
       
       event.preventDefault()
@@ -26,7 +27,19 @@ function Maink(){
           setText('you are overweight')
         }
     }
+    localClick();
   }
+  function localClick(){
+    var data=JSON.parse(localStorage.getItem('data')||"[]");
+    var data2={
+      bmi:bmi
+    }
+    data.push(data2);
+    localStorage.setItem('data',JSON.stringify(data));
+  }
+  
+  
+  
     
     return <div className="main-page">
       <h1 className="heading">BMI CALCUKATOR</h1>

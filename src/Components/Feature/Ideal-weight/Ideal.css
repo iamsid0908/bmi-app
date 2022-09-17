@@ -1,10 +1,24 @@
-@media (max-width: 500px){
-    body {
-        width: 100%;
-        margin: 0;
-        padding: 0 0 2em;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+.big{
+    margin-top: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40rem;
+}
+.whole1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media (max-width: 600px){
+    .whole1{
+        width: 20rem;
+        height: 25rem;
     }
+    .big{
+        width: 21rem;
+    }
+    
 }

@@ -23,12 +23,13 @@ function Ideal(){
     
 
     return (
-        <div>
+        <div className="big">
             
 
           <form>
-            <div className="whole">
-            <h2 className="title">Ideal weigth of mans</h2>
+            
+            <div className="whole1">
+            <h2 className="title1">Ideal weigth of mans</h2>
             <label>Age</label>
                 <input type={'text'} placeholder="Age"  className="input" onChange={(e)=>{
                     setAge(e.target.value);
@@ -51,6 +52,7 @@ function Ideal(){
             </form>
             
         </div>
+       
     )
 }
 export default Ideal;

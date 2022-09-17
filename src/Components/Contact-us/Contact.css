@@ -1,7 +1,8 @@
 .whole2{
     
-    margin-top: 30px;
-    height: 80vh;
+
+    width: 38rem;
+    height: 40rem;
     margin-left: 30%;
     margin-right: 30%;
     display: flex;
@@ -9,6 +10,7 @@
     justify-content: center;
     flex-direction: column;
     background-color: white;
+    border: 1px solid gray;
 }
 .form{
     display: flex;
@@ -24,19 +26,28 @@
     margin: 10px;
     
 }
+.big1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
 
 @media (max-width: 500px){
-    body {
-        width: 100%;
-        margin: 0;
-        padding: 0 0 2em;
-      
-    }
+    
     .whole2{
-        width: 400px;
-        margin-right: 50px;
+        width: 20rem;
+        
     }
-    .whole .form{
+    .whole2 .form{
         width: 200px;
+    }
+    .form input{
+        width: 10.75rem;
+
+    }
+    .body{
+        width: 20rem;
     }
 }

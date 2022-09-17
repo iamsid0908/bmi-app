@@ -1,3 +1,4 @@
+
 .title{
     
     display: flex;
@@ -6,7 +7,11 @@
     background-color: white;
 }
 .big-box{
-    /* border: 2px solid red; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
 
 }
 .whole{
@@ -41,33 +46,42 @@
         padding: 0 0 2em;
     }
     .whole{
-        width: 400px;
-        height: 600px;
-        margin-right: 300px;
+        width: 25rem;
+        height: 42rem;
+    
+        
         
 
     }
+    .big-box{
+        width: 25rem;
+        height: 43.75rem;
+        margin-top: 4.3rem;
+    }
     .whole input{
-        width: 300px;
+        width: 18.75rem;
 
     }
 }
 @media (max-width: 500px){
     body {
-        width: 100%;
+        
         margin: 0;
         padding: 0 0 2em;
         display: flex;
         align-items: center;
         justify-content: center;
+        width: auto;
     }
-    /* .big-box{
-        width: 400px;
-    } */
+    .big-box{
+        width: 25rem;
+        height: 43.75rem;
+        margin-top: 4.3rem;
+    }
     .whole{
-        width: 400px;
-        height: 600px;
-        margin-right: 300px;
+        width: 25rem;
+        height: 40rem;
+        
         
 
     }

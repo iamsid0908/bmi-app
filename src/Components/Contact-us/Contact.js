@@ -18,7 +18,7 @@ function Contact(){
         
         <>
         
-        
+        <div className="big1">
         <div className="whole2">
         <h1 className="title">Contact us</h1>
             <form className="form" onSubmit={sendEmail}>
@@ -32,6 +32,7 @@ function Contact(){
                 <input type={"text"} placeholder="massage" className="input1" name="message"></input>
                 <button>Submit</button>
             </form>
+        </div>
         </div>
         </>
     )
