@@ -18,7 +18,7 @@ class App extends React.Component{
     super();
 
   }
-
+// hi i am sid
   render(){
     return (
     
@@ -32,9 +32,6 @@ class App extends React.Component{
        <Route path="/feature/bmr" element={<Bmr/> }/> 
        <Route path="/feature/pace" element={<Pace/> }/> 
        <Route path="/feature/ideal" element={<Ideal/> }/> 
-
-      
-
       </Routes>
       </>
    
